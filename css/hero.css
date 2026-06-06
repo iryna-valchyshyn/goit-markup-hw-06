@@ -32,17 +32,15 @@
 .title-hero {
     font-family: var(--font-family);
     font-weight: 700;
-font-size: 36px;
+    font-size: 36px;
     line-height: 1.11;
     max-width: 216px;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
     font-weight: 700;
-    font-size: 56px;
 
     /* line-height: 60px; */
-    line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
@@ -118,7 +116,7 @@ font-size: 36px;
                 url("../images/hero-bg-desktop.jpg");
     }
 
-    hero .container {
+    .hero .container {
         gap: 48px;
     }
 }
@@ -134,7 +132,7 @@ font-size: 36px;
 
 
 
-@media (min-resolution: 2dppx) {
+@media screen and (max-width: 767px) and (min-resolution: 2dppx) {
     .hero {
         background-image:
             linear-gradient(rgba(46, 47, 66, 0.7),

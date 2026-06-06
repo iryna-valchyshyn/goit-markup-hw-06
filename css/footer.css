@@ -18,8 +18,8 @@
 
 .footer-info {
     display: flex;
-   align-items: center;
-    text-align: center;
+    align-items: center;
+    text-align: left;
     justify-content: flex-start;
     flex-direction: column;
     gap: 0;
@@ -242,6 +242,7 @@
 
         row-gap: 72px;
         column-gap: 24px;
+        max-width: 584px;
     }
 
     .footer-info {
@@ -259,6 +260,12 @@
 
     .form-footer {
         flex-direction: row;
+        gap: 24px;
+    }
+
+    .input-footer {
+        width: 264px;
+        max-width: 264px;
     }
 }
 
@@ -270,5 +277,13 @@
     .footer .container {
         flex-wrap: nowrap;
         gap: 0;
+    }
+
+    .socials-link-footer {
+        margin-left: 120px;
+    }
+
+    .subscribe {
+        margin-left: auto;
     }
 }

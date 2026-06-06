@@ -95,7 +95,7 @@ display: flex;
     border-right: 1px solid var(--cornflower);
     padding: 32px 16px;
     background: var(--white);
-    width: 360px;
+    width: 100%;
    
 
 }
