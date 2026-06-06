@@ -277,6 +277,7 @@
     .footer .container {
         flex-wrap: nowrap;
         gap: 0;
+        max-width: 1158px;
     }
 
     .socials-link-footer {
